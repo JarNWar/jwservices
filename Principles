@@ -1,0 +1,5 @@
+1.	All services are developed based on [Spring Boot 2.x]
+2.	All services must be invoked by business service, we do not recommend invoke services directly (by client) although they can be.
+3.	Because of the services are used for distributed architecture, so we must comply with CAP and BASE principles when designing and coding for a service.
+4.	Every API must has a good performance(responding time <= 1s), of cause, the performance is effected by business service environment.
+5.	Hold on, think twice. Cost more time to design, cost little bit time to develop.
